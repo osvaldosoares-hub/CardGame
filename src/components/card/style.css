@@ -1,0 +1,12 @@
+
+.card-game{
+    width: 130px;
+    height: 160px;
+    background-color: var(--color-alura);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: #fff solid 3px;
+  }
+  
