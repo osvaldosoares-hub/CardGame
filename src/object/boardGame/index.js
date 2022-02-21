@@ -1,5 +1,5 @@
 import { CardGame } from "../../components/card";
-
+import './styles.css'
 export const BoardGame= (amountCards)=>{
     
     
@@ -9,5 +9,7 @@ export const BoardGame= (amountCards)=>{
 
 
     console.log(HtmlCardGame)
-    return HtmlboardGame;
+    return `<section class="border-game">
+                    ${HtmlboardGame}
+            </section>`;
 }
