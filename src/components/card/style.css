@@ -1,12 +1,16 @@
 
 .card-game{
+    box-sizing: border-box;
     width: 130px;
     height: 160px;
     background-color: var(--color-alura);
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 130px;
+    height: 160px;
     border-radius: 10px;
     border: #fff solid 3px;
   }
+  
   
