@@ -3,7 +3,7 @@ import './src/styles/generic/reset.css'
 import './src/styles/settings/styles.css'
 import './src/styles/elements/base.css'
 import './style.css'
-import { ScoreBoard } from "./src/components/playerScore"
+import { ScoreBoard } from "./src/object/playerScore"
 
 import { BoardGame } from './src/object/boardGame'
 
