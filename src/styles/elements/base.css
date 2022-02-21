@@ -2,6 +2,7 @@ body{
     height: 100vh;
     max-width: 320px;
     background-color: var(--color-back);
+    font-size: 10px;
     margin-left: auto;
    margin-right: auto;
 }

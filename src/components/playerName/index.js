@@ -1,5 +1,6 @@
+import './styles.css'
 export const PlayerName = (content)=>{
     return `
-        <p>${content}</p>
+        <p class="Player">${content}</p>
     `;
 }

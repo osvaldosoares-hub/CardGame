@@ -1,10 +1,11 @@
-import { CardGame } from "../../components/card";
+
+import { CardFrontBAck } from '../../components/cardFrontBack'
 import './styles.css'
 export const BoardGame= (amountCards)=>{
     
     
 
-    const HtmlCardGame= CardGame()
+    const HtmlCardGame= CardFrontBAck()
     const HtmlboardGame =  HtmlCardGame.repeat(amountCards)
 
 
